@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--Grupo CSS-->
+<link rel="stylesheet" href="css/themeapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--Grupo JS-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header">
+  <h1>La madre tierra</h1>
+ </div>
+
+
+       <br>   
+       <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>¿Cómo celebramos a la tierra?</h1>
+       <div>
+       <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus e cosistemas y los seres vivos que la habitamos.</p>
+       </div>
+       </div>
+       <p><a href="http://www.un.org/es/events/motherearthday/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Da clic para ir a &quot;UNICEF&quot; y saber sobre el día de la Tierra.</a></p>
+ <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+   <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Día de la tierra</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Qué podemos hacer para mejorar nuestro entorno?</h2>
+   </a>
+   </li>
+   <!--<li class="ui-first-child ui-last-child">
+   <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Disminuyamos la contaminación.</h2>
+   </a>
+   </li>-->
+   </ul>
+   </div>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Mi reflexión</h1>
+       <div>
+       <p>En mi opinión todos deberíamos afectar a nuestro hogar con cambios positivos ya que nosotros, los que habitamos, necesitamos un mejor lugar para vivir. Debemos preservar lugares naturales y verdes y no por parte del gobierno, sino por nuestra propia iniciativa, hacer las cosas bien. Si bien el día de la tierra es el 22 de Abril, pienso que el día de la tierra debería de ser todos los días y cuidarla diariamente, quiero decir que no hay que esperar a éste día para comenzar a efectuar cambios positivo, ya debería haberse convertido en una rutina, como algo cotidiano. Sin embargo, mucha gente no hace lo que tiene que hacer ni en un día como es el 22 de Abril, Todos tenemos que aprender a vivir con calidad.</p>
+       </div>
+       </div>
+
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>Imágenes de la tierra</h1>
+       <div>
+      <!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:960px;height:120px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+       </div>
+       </div>
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h2>Aplicación 5 - Día de la tierra</h2>
+   <h4>Montserrat Akari Alvarez Piedra</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    </div>
+   </div>
+   </div>
+   </div>
+   </div>
+
+   
+   <div data-role="page" id="page4" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Nuestro entorno - Día de la tierra</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <br>
+    <h3>Cosas que podemos hacer en éste día</h3>
+    
+   <p> <strong>Aprende más sobre el medio ambiente</strong>. El día de la Tierra es un buen momento para comprometerse a aprender más sobre el medio ambiente y qué se puede hacer para protegerlo. Lee artículos para estar al día con los sucesos actuales que afectan el medio ambiente, tales como la contaminación, la falta de agua y el cambio climático. Si no, aprende sobre alguna región que nunca hayas considerado como el Ártico, los desiertos o las selvas tropicales. ¿No estás seguro por dónde empezar? Échales un vistazo a las fuentes noticiosas locales para conocer lo problemas medioambientales en tu propia comunidad.
+Comprende el mecanismo del cambio climático y lo que puedes hacer al respecto.
+Si vives en una ciudad, averigua los problemas ambientales urbanos como el agua potable contaminada y la conservación de energía.
+Si vives cerca de un cuerpo de agua, averigua si es saludables o necesita ayuda.
+Conoce más sobre la fracturación hidráulica, que está afectando a muchas comunidades en los EE.UU.
+Averigua qué especies nativas en tu área están en peligro de extinción.</p>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','imagenes/contaminacion.jpg',6)"><img src="imagenes/contaminado.jpg" width="457" height="293" id="Image5"/></a></p>
+   <p> <strong>Únete a un grupo ambientalista</strong>. Piensa qué problemas te atañen más y si todavía no lo has hecho, únete a un grupo local dedicado a actividades para ayudar a proteger el medio ambiente en tu localidad. El día de la Tierra es un día excelente para empezar a participar. En casi todas las comunidades, encontrarás grupos locales haciendo lo siguiente:[6]
+Organizan días de limpieza de los cuerpos locales de agua y sus orillas.
+Luchan contra la contaminación del aire y del agua.
+Plantan árboles e instalan jardines comunitarios.
+Protegen hábitats en riesgo de desarrollo urbano
+¿No encuentras un grupo? Entonces crea el tuyo.</p>
+<img src="imagenes/continentes.jpg">
+
+<p>Planta árboles. En EE.UU., como el día de la Tierra casi coincide con el día del árbol, es muy popular que se planten árboles en el día de la Tierra. Los árboles ayudan reduciendo las emisiones de gas invernadero, limpiando la contaminación, manteniendo la tierra en su lugar para evitar la erosión y brindando abrigo para muchas aves, insectos, entre otros animales. Casi no hay otra acción más importante y duradera que puedas hacer para el día de la Tierra como esta.
+Escoge un árbol que sepas que pueda sobrevivir en tu clima. Lo mejor es buscar una especie nativa del área donde vives. Si no estás seguro de cuál podría ser, pregúntale a un empleado en tu jardinería local o dentro del departamento de jardinería de las cadenas de supermercados.
+Para que los árboles crezcan altos y fuertes, asegúrate de plantarlos correctamente. Escoge el lugar correcto para plantarlos que satisfagan sus necesidades, cava un hoyo del tamaño acorde y riégalos bien para que tengan un buen comienzo.</p>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h2>Aplicación 5 - Día de la tierra</h2>
+    <h4>Montserrat Akari Alvarez Piedra</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    </div>
+   </div>
+   
+   <div data-role="page" id="page3" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Conservar a la tierra</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+   <div>
+   <h3>Algunos consejos</h3>
+   <p>1.- ¡Cierra la llave! Evita mantener el grifo abierto mientras te cepillas los dientes, cuando te enjabones en la noche igual cierra la llave. No abras la válvula al máximo sin necesidad de tanta presión. Y comprueba que los grifos no goteen cuando están cerrados.</p>
+    <br>
+    <p>2.- Compra papel reciclado: Es una buena manera de salvar mucho árboles, puede ser papel higiénico, servilletas, toalla, papel para escribir cartas, si estás organizando tu boda elige tarjetas elaboradas en papel reciclado y naturaleza muerta.</p>
+    <br>
+    <p>3.- Apaga los aparatos eléctricos mientras no los utilices: Usa responsablemente el aire acondicionado, el televisor, la computadora, no mantengas los cargadores conectados si tu celular ya tiene la batería completa.</p>
+    <br>
+    <p>4.- Utiliza bombillos ahorradores: Además de cuidar el ambiente tu recibo de energía eléctrica también disminuirá.</p>
+    <br>
+    <p>5.- Cuidado con las bolsas. El plástico con el que elaboran las bolsas tardan cientos de años en degradarse, usa bolsas biodegradables en su lugar o bolsas de tela reutilizables.</p>
+    <br>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/Hermoso_lugar.jpg',1)"><img src="imagenes/Planeta.jpg" width="457" height="293" id="Image2"/></a></p>
+    <br>
+    <p>6.- Si hay luz natural no ocupas encender el bombillo: Abre las cortinas para que entre la luz y evita usar energía en el día sino la ocupas.</p>
+    <br>
+    <p>7.- Recicla y decora: Puedes redecorar tu hogar con las mismas piezas, por ejemplo puedes crear una lampara cortando hileras de una botella plástica, puedes cortar un bote de jugo y hacer un recogedor.</p>
+    <br>
+    <p>8.- Amiga de las flores: Has un jardín en tu hogar, ten plantas dentro y fuera pero acuérdate de regarlas y podarlas.</p>
+    <br>
+    <p>9.- Mascotas: Si no te gustan los animales no tengas y no maltrates ni atropelles los que caminan por las calles. Si te gustan, cuídalos y protégelos.</p>
+    <br>
+    <p>10.- No gastes combustible en vano: Si no ocupas movilizarte en carro no lo hagas, camina y respira aire fresco. Sal temprano de casa para no encontrarte con el tráfico y ahorrar combustible.</p>
+    <br>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagenes/Planeta_tierra.jpg',4)"><img src="imagenes/ayudemos_a_la_tierra.jpg" width="457" height="293" id="Image3"/></a></p>
+   </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h2>Aplicación 5 - Día de la tierra</h2>
+    <h4>Montserrat Akari Alvarez Piedra</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    </div>
+   </div>
+   </div>
+   </body>
+   </html>
